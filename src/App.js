@@ -141,7 +141,7 @@ class App extends Component {
     const DebitsComponent = () => (<Debits addDebit={this.addDebit} debits={debits} />);
       const CreditsComponent = () => (<Credits addCredit={this.addCredit} credits={credits}/>);
     return (
-      <Router basename="/BankReact">
+      <Router>
 {/*
   I am using <div> to make the acocuntBalance show up, and I'm including line 150 in App.js's
   render function so that the balance will be visible on all pages with the most up-to-date amount
