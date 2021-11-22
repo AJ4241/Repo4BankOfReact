@@ -125,7 +125,6 @@ class App extends Component {
     let mon_Var = old_Date.getMonth();
     let year_Var = old_Date.getFullYear();
     subCredArr[n].date = year_Var+'-'+(mon_Var+1)+'-'+day_Var;
-    console.log(subCredArr[n]);
     this.setState({credits: subCredArr});
 
     let r = this.state.accountBalance + amountC;
